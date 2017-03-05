@@ -1,0 +1,27 @@
+<i>
+  <i image="move_0.png" delay="200" x="-67" y="-110"/>
+  <i image="move_1.png" delay="200" x="-67" y="-110"/>
+  <i image="move_2.png" delay="200" x="-67" y="-110"/>
+  <i image="move_3.png" delay="200" x="-67" y="-110"/>
+  <i image="move_4.png" delay="200" x="-67" y="-110"/>
+  <i image="move_5.png" delay="200" x="-67" y="-110"/>
+  <i image="move_6.png" delay="200" x="-67" y="-110"/>
+  <i image="move_7.png" delay="200" x="-67" y="-110"/>
+  <i image="move_8.png" delay="200" x="-67" y="-110"/>
+  <i image="move_9.png" delay="200" x="-67" y="-110"/>
+  <i image="move_10.png" delay="200" x="-67" y="-110"/>
+  <i image="move_11.png" delay="200" x="-67" y="-110"/>
+  <i image="stand_0.png" delay="200" x="-61" y="-107"/>
+  <i image="stand_1.png" delay="200" x="-61" y="-107"/>
+  <i image="stand_2.png" delay="200" x="-61" y="-107"/>
+  <i image="stand_3.png" delay="200" x="-61" y="-107"/>
+  <i image="stand_4.png" delay="200" x="-61" y="-107"/>
+  <i image="stand_5.png" delay="200" x="-61" y="-107"/>
+  <i image="hit1_0.png" delay="600" x="-42" y="-113"/>
+  <i image="die1_0.png" delay="150" x="-95" y="-92"/>
+  <i image="die1_1.png" delay="150" x="-95" y="-92"/>
+  <i image="die1_2.png" delay="150" x="-95" y="-92"/>
+  <i image="die1_3.png" delay="150" x="-95" y="-92"/>
+  <i image="die1_4.png" delay="150" x="-95" y="-92"/>
+  <i image="die1_5.png" delay="300" x="-95" y="-92"/>
+</i>
