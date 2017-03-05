@@ -1,0 +1,78 @@
+<html>
+	<meta charset="utf-8">
+	<title>Maple Story</title>
+	<style>
+		@font-face {
+			font-family: liwen;
+			src: url("font/FZMWFont.ttf");
+		}
+
+		*{margin: 0;}
+		body{-moz-user-select:none;}
+		#canvas{position: absolute;border: 1px solid #000;cursor: url("bg/cursor.png"), auto;z-index: 1;}
+		
+		.home {position: absolute; border:1px solid #000; width: 800px; height: 600px; cursor: url("bg/cursor.png"), auto;z-index: 2;}
+		.version{position: absolute;right: 100px;top: 5px;font-weight: bold;font-size: 12px;display: none;}
+
+		button {position: absolute; font-size: 18px;font-weight: bold;font-family: liwen,微软雅黑;text-shadow: 0px 0px 5px #444;outline: none;background: transparent;border: none;cursor: url("bg/cursor.png"), auto;display: none;}
+		button:hover{text-shadow: 0px 0px 5px red;}
+		.select-btn{bottom: 150px;right: 100px;}
+		.help-btn{bottom: 120px;right: 100px;}
+
+		.frame{width: 588px;position: absolute; margin-left:100px;font-family: liwen,微软雅黑;background: rgba(0, 0, 0, 0.6);border-radius: 8px;border: 1px solid orange;color:white;padding: 8px;font-size:14px;display: none;}
+		.select-frame{top:50px;}
+		.text{font-weight: bold;font-size: 14px;text-shadow: 0px 0px 5px red;color:yellow;text-align: center;}
+		.character{width: 320px;margin: 10px auto;}
+		img{width: 60px; height: 96;border-radius: 10px;padding: 30px;background:rgba(0, 0, 0, 0.6);box-shadow: 0 0 10px #000;transition: all 0.3s;margin-bottom:20px;}
+		img:hover{box-shadow: 0 0 20px red;background:rgba(0, 0, 0, 0.8);}
+		.left-img{float:left;}
+		.right-img{float: right;}
+
+		.help-frame{bottom: 190px;}
+		.help-frame span {font-weight: bold;font-size: 14px;text-shadow: 0px 0px 5px red;color:yellow;}
+	</style>	
+	<script src="script/resources.js"></script>
+	<script src="script/monster_factory.js"></script>
+	<script src="script/constant.js"></script>
+	<script src="script/util.js"></script>
+	<script src="script/effect.js"></script>
+	<script src="script/attr.js"></script>
+	<script src="script/skill_manager.js"></script>
+	<script src="script/music.js"></script>
+
+	<script src="script/mapdata.js"></script>
+	<script src="script/monster.js"></script>
+	<script src="script/player.js"></script>
+	<script src="script/yingzi.js"></script>
+	<script src="script/map.js"></script>
+	<script src="script/bg.js"></script>
+	<script src="script/scene.js"></script>
+	<script src="script/main.js"></script>
+
+	<body onselectstart="return false;">
+		<audio id="home_audio" src="music/home.mp3" preload="true" loop="true"></audio>
+		<canvas id="canvas" width="800" height="600"></canvas>
+		<div class="home" id="home">
+			<div class="version" id="version">Ver.20160215</div>
+			<!--select character-->
+			<div class="frame select-frame" id="select">
+				<div class="text">请选择角色</div>
+				<div class="character">
+					<img class="left-img" id="left_img" src="bg/male.png"/>
+					<img class="right-img" id="right_img" src="bg/female.png" onclick="start('female')"/>
+				</div>
+			</div>
+			<!--help-->
+			<div class = "frame help-frame" id="help">
+				<div><span>按键说明：</span>方向键控制，S捡取物品，D跳跃，F二连击，G瞬杀，R回旋斩，T落叶斩；2物品，3角色能力，4装备；使用HP恢复药水Ctrl，使用MP恢复药水Shift。</div>
+				<div><span>其他说明：</span>空中+上，爬绳子和梯子；在光柱处按上，切换地图；消耗道具需要设置才能使用。</div>
+				<div><span>作者的话：</span>该游戏仅供测试，游戏数据设置不合理，功能还没有完成，不推荐玩。</div>
+				<div><span>联系方式：</span>QQ1439080086</div>
+			</div>
+
+			<!--menu-->
+			<button class="select-btn" id="start_btn">开始游戏</button>
+			<button class="help-btn" id="help_btn">游戏帮助</button>
+		</div>
+	</body>
+</html>
