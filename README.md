@@ -7,7 +7,7 @@ This is a demo of the cool 2d online game [MapleStory](http://mxd.sdo.com/web6/h
 
 This game may be not so cool, there are also some bugs, especially in the loading scene, if the progress stay a long time, please refresh. If I have time, I will recontruct it.
 
-The demo online click [here](https://lwvoid.github.io/maplestory).
+The demo online click [here](https://liwenone.github.io/maplestory).
 
 
 ## How to Play
@@ -19,6 +19,6 @@ The demo online click [here](https://lwvoid.github.io/maplestory).
 - **2, 3, 4:** items, ability, equipment
 
 ## Screenshots
-![image](https://github.com/lwvoid/maplestory/blob/master/screenshots/maplestory1.jpg)
+![image](https://github.com/liwenone/maplestory/blob/master/screenshots/maplestory1.jpg)
 
-![image](https://github.com/lwvoid/maplestory/blob/master/screenshots/maplestory2.jpg)
+![image](https://github.com/liwenone/maplestory/blob/master/screenshots/maplestory2.jpg)
